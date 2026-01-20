@@ -3,7 +3,8 @@ name: hantao19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 5/6 * * *'
+    - cron: '0 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: hantao19871010
         env:
-          yrdq6: ${{ secrets.yrdq6 }}
+          j53050: ${{ secrets.j53050 }}
         run: |
-          echo $yrdq6 | jq -r .qp4441 | /bin/bash
-          echo $csg6 | jq -r .wsb92 | /bin/bash
-          echo $kvrv53 | jq -r .kwtxn5 | /bin/bash
-          echo $j160 | jq -r .wpfjy12 | /bin/bash
-          echo $y0095 | jq -r .hl81536 | /bin/bash
-          echo $sp66 | jq -r .djc262 | /bin/bash
-          echo $wrrrg3282 | jq -r .lhzrb7268 | /bin/bash
-          echo $sjevr824 | jq -r .mc47 | /bin/bash
-          echo $vrn735 | jq -r .lwg531 | /bin/bash
-          echo $rse916 | jq -r .ifjd0847 | /bin/bash
-          echo $oks52 | jq -r .sopxg08099 | /bin/bash
+          echo $j53050 | jq -r .lykhx58 | /bin/bash
+          echo $df2 | jq -r .g48 | /bin/bash
+          echo $j5 | jq -r .a8 | /bin/bash
+          echo $pupf28962 | jq -r .ste2993 | /bin/bash
+          echo $g5 | jq -r .bch9963 | /bin/bash
+          echo $zjc73897 | jq -r .sad9 | /bin/bash
+          echo $s2 | jq -r .t5273 | /bin/bash
+          echo $uf531 | jq -r .cyz969 | /bin/bash
+          echo $lj6 | jq -r .k337 | /bin/bash
+          echo $qugr07 | jq -r .mpsx25620 | /bin/bash
+          echo $s36560 | jq -r .k153 | /bin/bash
+          echo $mnxgp6 | jq -r .ianzx769 | /bin/bash
+          echo $a3 | jq -r .ldm8 | /bin/bash
+          echo $l495 | jq -r .yw5235 | /bin/bash
+          echo $ncjn1 | jq -r .k0 | /bin/bash
+          echo $btu25564 | jq -r .oz0 | /bin/bash
+          echo $u84 | jq -r .y567 | /bin/bash
+          echo $qwkg82420 | jq -r .wjk1 | /bin/bash
 
